@@ -19,6 +19,10 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  .config(['$locationProvider', function($locationProvider) {
+    $locationProvider.html5Mode(false);
+    $locationProvider.hashPrefix('');
+  }])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -30,6 +34,11 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/signup', {
+        templateUrl: 'views/signup.html',
+        controller: 'SignupCtrl',
+        controllerAs: 'signup'
       })
       .otherwise({
         redirectTo: '/'
