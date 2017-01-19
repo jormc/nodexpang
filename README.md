@@ -10,11 +10,11 @@ Current versions are:
 
 The scaffolding and construction has been made following the great **J Cole Morrison** (see http://start.jcolemorrison.com) tutorial:
 
-* First module: *Building an Angular and Express App Part 1*
- * Covers base scaffolding of the projects
- * http://start.jcolemorrison.com/building-an-angular-and-express-app-part-1/
-* Second module:
-* Thirth module: 
+* First module: http://start.jcolemorrison.com/building-an-angular-and-express-app-part-1
+* Second module: http://start.jcolemorrison.com/building-an-angular-and-express-app-part-2
+* Thirth module: http://start.jcolemorrison.com/building-an-angular-and-express-app-part-3
+
+Based on the repository: https://github.com/jcolemorrison/angular-express-tutorial-part-3
 
 ## Install
 You'll need the next dependencies previously installed:
