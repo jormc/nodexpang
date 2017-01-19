@@ -1,0 +1,10 @@
+# for the yeoman angular client scaffold
+/client/.sass-cache
+/client/.tmp
+/client/bower_components
+/client/node_modules
+/client/dist
+
+# for the express server scaffold
+/server/dist
+/server/node_modules
