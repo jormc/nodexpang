@@ -48,9 +48,11 @@ We must modify some lines from the bootstrap sources:
 
 In your client folder:
 
-* run npm install to regenerate all project node dependencies
+* run npm install & bower install to regenerate all project node and bower dependencies:
 ```bash
-/client/npm install
+$ cd client
+$ npm install
+$ bower install
 ```
 * open ```bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss```
  * On line 2 comment out ```@import "bootstrap/variables";```
